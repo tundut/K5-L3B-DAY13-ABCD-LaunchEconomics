@@ -39,9 +39,9 @@ Mỗi event đều gắn `trace_id` để nối xuyên suốt với trace của 
 
 ## E2 · Rủi ro kinh tế
 
-*(Phần Thành viên 2 hoàn thiện: điền ít nhất 2 dòng lấy số từ `bang_chi_phi.md` — gợi ý: số ca làm lại gấp đôi +51,8% lên 6.787 đ [simulated]; xem lại 100% kéo dài 11.743–12.415 đ = 0,98–1,03× [simulated]; khối lượng giảm một nửa làm chi phí cố định tăng từ 1.185 đ lên 2.370 đ/việc [simulated].)*
-
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| Số ca làm lại tăng (ví dụ lỗi hệ thống mới, đổi bảng giá) | Làm lại gấp đôi kéo chi phí mỗi việc thành công từ 4.472 đ lên **6.787 đ (+51,8%)**; giảm một nửa còn 3.315 đ (`simulated`, `bang_chi_phi.md` B1) | Tỉ lệ `ket_qua == 'lam_lai'` theo tuần; số `staff_rework_completed` mỗi ngày | Trước mỗi bước rollout, rà soát top 3 loại lỗi làm lại; nếu tỉ lệ làm lại tăng > 50% so với baseline thì dừng tăng rollout | Người kiểm số |
+| Nhân viên phải xem lại gần như mọi gợi ý | Xem lại 100% (`noi_dia` + `hang_nang`) cho chi phí 11.743–12.415 đ/việc = **0,98–1,03×** mức 12.000 đ; chỉ hoà vốn khi `phut_xem_lai` ≤ 4,8–5,1 phút (`simulated`, B4) | `phut_xem_lai` đo thật (event `staff_review_decision`), tỉ lệ `duoc_xem_lai == 1` | Tuần đầu pilot đo thời gian xem lại thật; nếu trung bình > 5 phút thì áp luật dừng chi phí trong `pilot_plan.yaml` | Trưởng ca CSKH |
+| Khối lượng yêu cầu thấp hơn dự kiến | Chi phí cố định 40 triệu đ/tháng chia cho việc thành công tăng từ 1.185 đ lên **2.370 đ/việc** khi khối lượng giảm một nửa (tổng 4.599 → 5.784 đ/việc, `simulated`, A4) | Số yêu cầu `noi_dia` + `hang_nang` thực tế mỗi tuần so với giả định 45.000/tháng | Ghim khối lượng tối thiểu vào điều kiện Go có điều kiện; nếu 2 tuần liên tiếp < 70% giả định thì xem lại phạm vi pilot | Người gắn nhãn 2 kiêm giữ hồ sơ |
+| Giá token tăng (nhà cung cấp đổi giá) | Token gấp đôi chỉ làm chi phí tăng **+5,6%** (4.472 → 4.723 đ); cặp token×2 + xem lại×2 tăng +46,3% (`simulated`, B1–B2) | Hoá đơn token/tool thực tế mỗi tuần | Ít nhạy: không cần hành động riêng, chỉ ghi nhận trong báo cáo tuần | Người viết code + Người định lượng |

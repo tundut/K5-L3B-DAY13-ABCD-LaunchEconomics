@@ -5,7 +5,7 @@
 - Tên nhóm: ABCD
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-ABCD-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: `...` · nhánh `main` · commit `...`
+- URL repo: https://github.com/tundut/K5-L3B-DAY13-ABCD-LaunchEconomics · nhánh nộp: `main` · commit chốt: cập nhật sau commit cuối trước deadline
 
 ## Thành viên
 

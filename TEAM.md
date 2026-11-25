@@ -39,7 +39,7 @@ report/team/MSSV_HoTen.md
 
 Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
-## ThanhVien1-MSSV
+## Nguyễn Phan Tuấn Đức — 2A202603818
 
 ### Phần việc phụ trách
 
@@ -61,7 +61,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 - `report/team/chi_so.md` (phần E1 & danh sách event)
 - `report/team/MSSV_HoTen.md` (báo cáo cá nhân)
 
-## ThanhVien2-MSSV
+## Huỳnh Văn Cường — 2A202603866
 
 ### Phần việc phụ trách
 
@@ -73,7 +73,11 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 ### Đóng góp cụ thể
 
-- (Cập nhật sau khi hoàn thành từng checkpoint)
+- Gắn nhãn độc lập 20 ca lỗi ở Nhiệm vụ C (bộ nhãn Người 2 trong `report/team/bang_loi.md`).
+- Tính đồng thuận (19/20 = 95%), viết quy tắc phân biệt ca lệch và hoàn thiện bảng khắc phục 5 ca.
+- Thiết kế pilot: tính D1 (cỡ mẫu 3 cách chia, chọn chia theo yêu cầu 1.251/nhóm), trả lời D2, điền `report/team/pilot_plan.yaml` gồm 3 luật dừng.
+- Hoàn thiện E2 trong `report/team/chi_so.md` (4 rủi ro kinh tế có số) và trang `report/team/ho_so_launch_v0.md` (đề xuất Go có điều kiện).
+- Tạo báo cáo cá nhân `report/team/2A202603866_Cuong.md`.
 
 ### Bằng chứng
 
